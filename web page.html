@@ -6,11 +6,6 @@
       h3 {text-align: center;}
       p {text-align: left;}
       div {text-align: center;}
-      img {text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  margin-right: 350px;
-  margin-left: 350px;}
       p {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -27,8 +22,28 @@ p {
 img {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 50%;
 }
+.image-container {
+  max-width: 700px;  /* adjust size as needed */
+  margin: 30px auto; /* adds vertical space above and below, centers it */
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
+  font-style: italic;
+}
+
       
       </style>
     <title>10 Years of Plane Crashes</title>
@@ -39,7 +54,10 @@ img {
     <p>Plane crashes are frequently caused by pilot error, mechanical failure, air traffic control errors, and
       weather conditions. But there has been an ostensible increase in the number of crashes over the past few months. 
       The deadliest crash in the last decade happened just <em>one month ago,</em> on June 12th, 2025. So why the recent uptick?
-      <img src="top-10-deadliest-plane-crash-locations-since-2015.jpg" alt="Plane crash world map">
+      <div class="image-container">
+        <img src="top-10-deadliest-plane-crash-locations-since-2015.jpg" alt="Map of Top 10 Deadliest Plane Crashes Since 2015">
+        <p class="caption">Map: Top 10 deadliest crashes based on fatalities, 2015–2025. Source: Bureau of Aircraft Accidents Archives.</p>
+      </div>
     </p>
     <p>Regardless of improved aviation reporting standards, the databases available to the public are difficult to pick apart, as the reports contain several details that are not as important to the public. 
     </p>
