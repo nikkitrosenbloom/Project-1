@@ -2,8 +2,18 @@
 <html>
   <head>
     <style>
-      h1 {text-align: center;}
-      h3 {text-align: center;}
+      h1 {text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+      h3 {text-align: center;
+        margin-top: 30px;
+  margin-bottom: 60px;
+  margin-right: 350px;
+  margin-left: 350px;}
       p {text-align: left;}
       div {text-align: center;}
       p {
@@ -16,8 +26,17 @@ body {
   background-color: #f5f1ee;
 }
 p {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto 20px auto; /* centers and adds space between paragraphs */
+}
+.intro-paragraph {
+  max-width: 900px; /* wider than the default 800px */
+  margin: 0 auto 25px auto;
+  line-height: 1.6;
 }
 img {
   display: block;
@@ -25,8 +44,8 @@ img {
   width: 50%;
 }
 .image-container {
-  max-width: 700px;  /* adjust size as needed */
-  margin: 30px auto; /* adds vertical space above and below, centers it */
+  max-width: 1000px;  /* adjust size as needed */
+  margin: 40px auto; /* adds vertical space above and below, centers it */
   text-align: center;
 }
 
@@ -51,21 +70,29 @@ img {
   <body>
     <h1>What's the Common Thread Among 10 Years of Plane Crashes?</h1>
     <h3>By: Nikki Rosenbloom</h3>
-    <p>Plane crashes are frequently caused by pilot error, mechanical failure, air traffic control errors, and
+    <p class="intro-paragraph">Plane crashes are frequently caused by pilot error, mechanical failure, air traffic control errors, and
       weather conditions. But there has been an ostensible increase in the number of crashes over the past few months. 
       The deadliest crash in the last decade happened just <em>one month ago,</em> on June 12th, 2025. So why the recent uptick?
       <div class="image-container">
-        <img src="top-10-deadliest-plane-crash-locations-since-2015.jpg" alt="Map of Top 10 Deadliest Plane Crashes Since 2015">
-        <p class="caption">Map: Top 10 deadliest crashes based on fatalities, 2015–2025. Source: Bureau of Aircraft Accidents Archives.</p>
+        <img src="top-15-deadliest-plane-crash-locations-since-2015.jpg" alt="Map of Top 10 Deadliest Plane Crashes Since 2015">
+        <p class="caption">Map: Top 15 deadliest crashes based on fatalities, 2015–2025.</p>
       </div>
     </p>
-    <p>Regardless of improved aviation reporting standards, the databases available to the public are difficult to pick apart, as the reports contain several details that are not as important to the public. 
+    <p>In the map above, the larger the icon, the deadlier the crash. The most recent — and most devastating — was the infamous June 12th flight from India to London, which killed 260 people and left just one survivor. The second-deadliest crash occurred in 2018 in Bilda, Algeria, killing 257. The dates of the top 15 deadliest crashes are scattered throughout the decade, even as aviation technology and reporting standards have advanced significantly. So what else is going on?
     </p>
     <p>The Bureau of Aviation Accident Archives sorts plane crashes around the world from the 1960s to today. The online database, founded in Switzerland, organizes the flights by date, operator, aircraft type, location, and fatalities.
-    Over the past 10 years, there have been 1335 commercial plane crashes, with more than half of them (710 accidents) resulting in fatalities.
+    Over the past 10 years, there have been 1335 accidents. More than half of them – 710 crashes – resulted in fatalities.
+    <div class="image-container" style="max-width: 750px;">
     <img src="chart.png" alt="Aircraft types in crashes from 2015 to 2025">
+    <p class="caption">Distribution of Aircraft Types in Fatal Crashes.</p>
+  </div>
   </p>
-  <p>According to the dataset, the Cessna and Piper-PA aircrafts make up the overwhelming majority of crashes. These aircrafts classify as small propeller planes, mostly used for short flights and/or personal endeavors. 
+  <p>According to the dataset, the Cessna and Piper-PA aircrafts make up the overwhelming majority of crashes. These aircrafts classify as small propeller planes, mostly used for short flights and/or personal endeavors. This raises the question: why are smaller planes crashing more? And because that is true, why did the deadliest crash occur in a commercial plane just one month ago?
+</p>
+<p>A recent <a href="https://theaircurrent.com/aviation-safety/ai171-investigation-fuel-control-switches/" target="_blank">article</a>  from The Air Current, an aviation news service, dives into the June 12th crash. While there is no official cause yet, the piece suggests that the Boeing 737-8 Dreamliner’s engine fuel control switches may be to blame.
+</p>
+<p>The fact that a commercial aircraft accounts for the deadliest crash in a decade is an outlier. The vast majority of crashes involve small, privately piloted aircraft. With private flying becoming more popular — especially among the wealthy — we may be witnessing the intersection of increased access, inconsistent regulation, and high-stakes risk. 
+
 </p>
   </body>
 </html>
